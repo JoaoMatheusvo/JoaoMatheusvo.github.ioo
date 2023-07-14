@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="favoritos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#destino">Coleções</a></li>
+                </ul>
+            </div>
+            <div class="nav-center">
+                <div class="search-bar">
+                    <input type="text" placeholder="Pesquisar...">
+                    <button><img src="img/lupa.png" alt="Ícone de Lupa"></button>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="favoritos.html"><i class="fi fi-rs-heart"></i></a>
+                <a href="carrinho.html"><i class="fi fi-rr-shopping-cart"></i></a>
+                <div class="bar"></div>
+                <div class="dropdown">
+                    <i class="fi fi-rr-user"onclick="toggleDropdown()"></i>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Perfil</a>
+                        <div class="line"></div>
+                        <a href="#">Favoritos</a>
+                        <div class="line"></div>
+                        <a href="#">Suporte</a>
+                        <div class="line"></div>
+                        <a href="#">Perguntas Frequentes</a>
+                        <div class="line"></div>
+                        <a href="login.html">Sair</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="section">
+            <img src="img/coracao 1.png" alt="">
+            <span>Favoritos</span>
+        </div>
+        <div class="linha"></div>
+        <div class="container">
+            <div class="left">
+                <div class="top">
+                    <div class="name">
+                        <span>produto</span>
+                    </div>
+                    <div class="ult">
+                        <span>preço</span>
+                    </div>
+                </div>
+                <div class="linha3"></div>
+                <div class="conteudo">
+                    <div class="test">
+                        <div class="sep">
+                            <div class="produto">
+                                <div class="image"></div>
+                                <div class="produto-info">
+                                    <h1>Nome do produto</h1>
+                                    <span>Lorem ipsum dolor sit amet. <span>
+                                </div>
+                            </div>
+                            <div class="sep">
+                                <div class="total">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="x">
+                                    <img src="img/coracao 1.png" alt="" width="35px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr">
+                    <div class="test">
+                        <div class="sep">
+                            <div class="produto">
+                                <div class="image"></div>
+                                <div class="produto-info">
+                                    <h1>Nome do produto</h1>
+                                    <span>Lorem ipsum dolor sit amet. <span>
+                                </div>
+                            </div>
+                            <div class="sep">
+                                <div class="total">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="x">
+                                    <img src="img/Favoritos Icon (1).png" alt="" width="35px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr">
+                    <div class="test">
+                        <div class="sep">
+                            <div class="produto">
+                                <div class="image"></div>
+                                <div class="produto-info">
+                                    <h1>Nome do produto</h1>
+                                    <span>Lorem ipsum dolor sit amet. <span>
+                                </div>
+                            </div>
+                            <div class="sep">
+                                <div class="total">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="x">
+                                    <img src="img/Favoritos Icon (1).png" alt="" width="35px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr">
+                    <div class="test">
+                        <div class="sep">
+                            <div class="produto">
+                                <div class="image"></div>
+                                <div class="produto-info">
+                                    <h1>Nome do produto</h1>
+                                    <span>Lorem ipsum dolor sit amet. <span>
+                                </div>
+                            </div>
+                            <div class="sep">
+                                <div class="total">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="x">
+                                    <img src="img/Favoritos Icon (1).png" alt="" width="35px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr">
+                </div>  
+            </div>
+            <div class="right">
+                <div class="ad">
+                    <div class="title">
+                        itens semelhantes
+                    </div>
+                    <div class="produtos">
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <i class="fi fi-rs-circle-c"></i>
+            <span>Copyright Hermmes Shoes 2023</span>
+        </div>
+        <div class="footer-right">
+            <a href="#"><i class="fi fi-rs-headset"></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

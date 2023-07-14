@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="aberta.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#destino">Coleções</a></li>
+                </ul>
+            </div>
+            <div class="nav-center">
+                <div class="search-bar">
+                    <input type="text" placeholder="Pesquisar...">
+                    <button><img src="img/lupa.png" alt="Ícone de Lupa"></button>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="favoritos.html"><i class="fi fi-rs-heart"></i></a>
+                <a href="carrinho.html"><i class="fi fi-rr-shopping-cart"></i></a>
+                <div class="bar"></div>
+                <div class="dropdown">
+                    <i class="fi fi-rr-user"onclick="toggleDropdown()"></i>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Perfil</a>
+                        <div class="line"></div>
+                        <a href="#">Favoritos</a>
+                        <div class="line"></div>
+                        <a href="#">Suporte</a>
+                        <div class="line"></div>
+                        <a href="#">Perguntas Frequentes</a>
+                        <div class="line"></div>
+                        <a href="login.html">Sair</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="section">
+        <img src="img/mao-segurando-a-caixa 1.png" alt="">
+        <span>Favoritos > </span>
+        <p>Nome do produto</p>
+    </div>
+    <div class="linha"></div>
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="conteudo">
+                    <div class="mini-container">
+                        <div class="aside">
+                            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d56ea8b6597f48d88741ae8300ef1b5e_9366/Tenis_Grand_Court_Cloudfoam_Comfort_Branco_GW9195_04_standard.jpg" alt="" width="160px" height="150px">
+                            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/213f2465a9e545c5949bae8300eeee93_9366/Tenis_Grand_Court_Cloudfoam_Comfort_Branco_GW9195_02_standard_hover.jpg" alt="" width="160px" height="150px">
+                            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cb6f10432a3541bd8164ae8300ef038e_9366/Tenis_Grand_Court_Cloudfoam_Comfort_Branco_GW9195_03_standard.jpg" alt="" width="160px" height="150px">
+                        </div>
+                        <div class="item">
+                            <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4896bd57f0894845b5c0ae8300eec549_9366/Tenis_Grand_Court_Cloudfoam_Comfort_Branco_GW9195_01_standard.jpg" alt="" width="200px">
+                        </div>
+                        <div class="divisor">
+                            <div class="product-info">
+                                <div class="product-title">
+                                    <h1>Nome do produto</h1>
+                                    <img src="img/Favoritos Icon (1).png" alt="">
+                                </div>
+                                <div class="quali">
+                                    <img src="img/estrela (1) 1.png" alt="">
+                                    <img src="img/estrela (1) 1.png" alt="">
+                                    <img src="img/estrela (1) 1.png" alt="">
+                                    <img src="img/meio-golpe-estrelado 1.png" alt="">
+                                    <img src="img/estrela 1 (1).png" alt="">
+                                </div>
+                                <div class="espec">
+                                    <span>Especificações</span>
+                                </div>
+                            </div>
+                            <div class="options">
+                                <div class="add">
+                                    <a href="carrinho.html">
+                                        <span>Adicionar ao carrinho</span>
+                                    </a>
+                                </div>
+                                <div class="buy">
+                                    <span>Comprar agora</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <div class="desc-title">
+                            Descrição
+                        </div>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse metus ante, luctus eget augue sit amet, convallis auctor nisi. Phasellus bibendum eu lectus at porta. Ut scelerisque sed turpis a gravida. Integer ac est quis neque rutrum pellentesque. Nulla ut lobortis neque, suscipit congue est.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="ad">
+                    <div class="title">
+                        itens semelhantes
+                    </div>
+                    <div class="produtos">
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image2"></div>
+                            <h1>Nome do produto</h1>
+                            <div class="bottom">
+                                <div class="preco">
+                                    <span>R$100</span>
+                                </div>
+                                <div class="icon">
+                                    <img src="img/cart.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <i class="fi fi-rs-circle-c"></i>
+            <span>Copyright Hermmes Shoes 2023</span>
+        </div>
+        <div class="footer-right">
+            <a href="#"><i class="fi fi-rs-headset"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
